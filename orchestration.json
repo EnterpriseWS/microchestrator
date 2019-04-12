@@ -1,0 +1,23 @@
+{"topics":
+  [ { "name": "TopicA",
+      "state": "TopicStateA",
+      "activity":
+      [ { "trigger_event": "EventA",
+          "handler": { "URL": "http://mydomain/handleevent", "method": "POST"},
+          "success_event": "EventB",
+          "failure_event": "EventY"
+        },
+        { "trigger_event": "EventB",
+          "handler": { "URL": "http://mydomain/handleevent2", "method": "POST"},
+          "success_event": "EventC",
+          "failure_event": "EventY"
+        },
+        { "trigger_event": "EventY",
+          "handler": { "URL": "http://mydomain/recovery", "method": "POST"},
+          "success_event": "EventD",
+          "failure_event": "EventD"
+        }
+      ]
+    }
+  ]
+}
