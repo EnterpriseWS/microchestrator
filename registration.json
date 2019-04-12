@@ -1,0 +1,11 @@
+{"events":
+  [ { "name": "EventA",
+      "description": "Simply a sample JSON file for events registration",
+      "data": {"Id": "0123456789", "EventDateTime": "", "Location": ""}
+    },
+    { "name": "EventB",
+      "description": "Another event sample",
+      "data": {"Id": "0-9A-B", "FirstName": "a-zA-Z", "LastName": "a-zA-Z"}
+    }
+  ]
+}
