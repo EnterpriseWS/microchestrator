@@ -1,2 +1,5 @@
 # microchestrator
-Lightweight orchestrator for microservices
+Microchestrator is an implementation of Saga pattern that is used to solve eventual data consistency issue commonly encountered in microservice architecture. Saga pattern can be categoried into two type of implementation - Coreography and Orchestrator. Microchestrator is designed as a hybrid implementation of both types. The JSON configuration file, orchestration.json, determines how the microservices and events work together. It's also performs as a lightweight orchestrator to reduce a footprint and can part of Docker contatiner.
+The architecture in the image below is a high-level design of Microchestrator.
+![Microchestrator Architecture](https://github.com/EnterpriseWS/microchestrator/commit/be2a2615bd4ed535d3e5818edf09f829aad91468)
+
